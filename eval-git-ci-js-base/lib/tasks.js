@@ -8,6 +8,9 @@ function getTasks() {
   return tasks;
 }
 
+function toggleTask(task) {
+    if(task) task.done = !task.done;
+}
 
 function reset() {
   tasks = [];
@@ -15,3 +18,5 @@ function reset() {
 }
 
 module.exports = { getTasks, reset };
+
+module.exports = {toggleTask}
