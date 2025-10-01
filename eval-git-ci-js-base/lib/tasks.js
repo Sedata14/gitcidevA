@@ -10,6 +10,7 @@ function getTasks() {
 
 function toggleTask(task) {
     if(task) task.done = !task.done;
+    console.log("stp conflict")
 }
 
 function reset() {
