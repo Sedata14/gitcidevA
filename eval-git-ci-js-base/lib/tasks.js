@@ -8,6 +8,16 @@ function getTasks() {
   return tasks;
 }
 
+function addTask(name) {
+    const task = {
+        id: Date.now(),
+        name: name.trim(),
+        done: false
+    };
+    tasks.push(task);
+}
+
+
 
 function reset() {
   tasks = [];
@@ -15,3 +25,5 @@ function reset() {
 }
 
 module.exports = { getTasks, reset };
+
+module.exports = { tasks, addTask };
