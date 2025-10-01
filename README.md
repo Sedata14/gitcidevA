@@ -25,7 +25,7 @@ tag = marquer un commit, ex : l'un des comit est la version 1.0 ou qu'une foncti
 stash = stocker des modif qu'on à pas commit au cas où si on est pas sur 
 
 
-release = 
+release = pour les versions officiel par ex une version 1.0 1.3 etc
 
 
 
